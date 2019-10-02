@@ -6,6 +6,3 @@ body.fade-out {
     opacity: 0;
     transition: none;
 }
-#con #cad {
-    border-radius: 30px;
-}
