@@ -1,28 +1,40 @@
 body {
-  background-image: url(assets/bg.png)
-
+  margin: 0;
+  padding: 0;
 }
 
+h1 {
+  font-size: 7em;
+  color: #D81B60;
+  text-align: center;
+}
+
+p {
+  font-size: 2em;
+}
 
 ul.active {
   border-color: #fff;
 }
 
-#inpux #final .searchbar {
+section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% height: 100vh;
+  padding: 100px;
+}
+
+.searchbar {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  color: whitesmoke;
   width: 40%;
   height: 1.5em;
   padding: 8px;
   font-size: 1em;
   border-radius: 20px;
   border-color: #000;
-}
-#inpux #final #search {
-  margin-top: 8px;
-  border-radius: 9px;
 }
 
 body.dark {
