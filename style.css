@@ -1,5 +1,5 @@
 body {
-	overflow: hidden;
+  overflow: hidden;
 	margin: 0;
 	padding: 0;
 }
@@ -20,29 +20,28 @@ p {
 	color: #000;
 }
 
+
 ul.active {
 	border-color: #fff;
 }
 
-section {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100vh;
-	padding: 100px;
-}
 
-.searchbar {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;
-	height: 1.5em;
-	padding: 8px;
-	font-size: 1em;
-	border-radius: 20px;
-	border-color: #000;
+#inpux #final .searchbar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: whitesmoke;
+  width: 40%;
+  height: 1.5em;
+  padding: 8px;
+  font-size: 1em;
+  border-radius: 20px;
+  border-color: #000;
+
+}
+#inpux #final #search {
+  margin-top: 8px;
+  border-radius: 9px;
 }
 
 body.dark {
