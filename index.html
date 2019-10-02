@@ -4,41 +4,18 @@
     <title>Queria</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <link rel="stylesheet" href="./css/materialize.min.css">
-  <link rel="stylesheet" href="./css/material-icons.css">
-  <body>
-    <header>
-      <div class="navbar-fixed">
-        <nav class="transparent">
-          <div class="nav-wrapper">
-            <div class="container">
-              <a href="index.html" class="brand-logo pink-text"><strong>Queria</strong></a>
-              <a href="#!" class="sidenav-trigger" data-target="slide-out">
-                <i class="material-icons circle" style="color: #e91e63">menu</i>
-              </a>
-            </div>
-          </div>
-          <ul class="sidenav" id="slide-out">
-            <li><a href="#!">Home</a></li>
-            <li><a href="#!">Blog</a></li>
-            <li><a href="#!">Language</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="container section center" id="inpux">
-      <h1 class="center-align pink-text text-lighten">Queria</h1>
-      <div class="container" id="final">
-          <input type="text" name="Search" placeholder="What are you looking for?" class="searchbar z-depth-2" list="info"/>
-          <datalist class="grey-text text-darken-4" id="info">
-            <option value="Python">
-            <option value="Java">
-            <option value="Swift">
-            <option value="Lua">
-            <option value="Kotlin">
+  <body background="bg.png">
+    <section>
+        
+      <h1>Queria</h1>
+      <input type="text" name="Search" placeholder="What are you looking for?" class="searchbar" list="info"/>
+      <datalist id="info">
+        <option value="Python">
+        <option value="Java">
+        <option value="Swift">
+        <option value="Lua">
+        <option value="Kotlin">
       </datalist>
-      <br><br>
-      <a href="index2.html" class="btn waves-effect waves-light pink lighten z-depth-2" id="search">Search</a>
 
       <div class="search"><centre><a href="index2.html">Search</a></centre></div>
       <br>
@@ -46,23 +23,17 @@
         (this is where the tagline would come & queria is still in the process of development.)
       </p>
 
+
     </section>
-    <div class="container center">
-        <ul class="center">
-          <li>
-            <span>Dark</span>
-            <span>Light</span>
-          </li>
-        </ul>
-    </div><br><br><br><br>
-
-
+    <ul>
+      <li>
+        <span>Dark</span>
+        <span>Light</span>
+      </li>
+    </ul>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/materialize.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        $('.sidenav').sidenav();
           $('ul').click(function() {
               $('ul').toggleClass('active')
               $('body').toggleClass('dark')
